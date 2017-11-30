@@ -33,6 +33,8 @@ Route::post('/cart/{id}','CartController@delete')->name('cart.delete');
 Route::post('/cart/checkout','CartController@checkout');
 
 Route::get('/books','BookController@books');
+Route::get('/cursos','CourseController@courses');
+Route::get('/cursos/{slug}', 'CourseController@show');
 
 Auth::routes();
 

@@ -47,7 +47,11 @@
         <div id="desc_img_curso">
           {{setting('cursos.text_intro')}}
         </div>
-        <div id="conheca_cursos"><a href="cursos.php" title="">Conheça</a></div>
+        <div id="conheca_cursos">
+          <a href="{{url('/cursos')}}" title="">Conheça</a>
+        </div>
+
+
         <div id="tit_destaque_curso">Vídeos</div>
         <div id="img_destaque_curso"><iframe width="258" height="180" src="http://www.youtube.com/embed/Swm6KFNijrE" frameborder="0" allowfullscreen></iframe></div>
         <div id="desc_destaque_curso">
