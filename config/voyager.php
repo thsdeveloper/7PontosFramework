@@ -182,7 +182,7 @@ return [
     |
     */
 
-    'primary_color' => '#fa3f19',
+    'primary_color' => '#2465b0',
 
     'show_dev_tips' => true, // Show development tip "How To Use:" in Menu and Settings
 

@@ -1,0 +1,535 @@
+body{
+  margin:0;
+  background-image: url('http://opelegis.web7095.uni5.net//storage/website/eZVDM54ItEBxaRNw8OnMYJjfVHvFAh4jw6y6qYSD.jpeg');
+  background-repeat: repeat-x;
+  background-color: #f1f1f1;
+  font-family: calibri,Arial, "MS Trebuchet", sans-serif;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+h1{
+  color:#4c000f;
+  padding:20px;
+  font-size: 22px;
+}
+
+h5{
+  color:#4c000f;
+  margin-left:20px;
+  padding-left:20px;
+  font-size:13px;
+}
+
+h5 a{
+  color:#4c000f;
+  text-decoration:none;
+}
+
+h5 a:hover{
+  text-decoration:underline;
+  color:#4c000f;
+}
+
+h4{
+  font-weight: normal;
+}
+
+.voltar{
+  color:#000000;
+  text-decoration:none;
+}
+
+.voltar a{
+  color:#000000;
+  text-decoration:none;
+}
+
+
+.voltar a{
+  color:#000000;
+  text-decoration:underline;
+}
+
+
+
+p{
+  padding:20px;
+  color:#333;
+  line-height:25px;
+  text-align:justify;
+  font-weight:normal;
+}
+
+.p2{
+  padding:5px;
+  color:#333;
+  line-height:15px;
+}
+
+.p2 a{
+  text-decoration:none;
+  color:#000;
+}
+
+.p2 a:hover{
+  text-decoration:underline;
+  color:#000;
+}
+
+.link a{
+  text-decoration:none;
+  color:#878180;
+}
+
+.link a:hover{
+  text-decoration:underline;
+  color:#878180;
+}
+
+#container{
+  margin:auto;
+  width:974px;
+  height:auto;
+}
+
+
+#header{
+  width:934px;
+  height:184px;
+}
+
+#logo{
+  padding-top:20px;
+  width:934px;;
+  text-align:center;
+  height:124px;
+}
+
+#atencao{
+  padding:20px;
+}
+
+#menu {
+  height: 10px;
+  margin-top: 26px;
+  text-align: center;
+}
+#menu ul {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+#menu ul li {
+  display: inline;
+}
+#menu ul li a {
+    padding: 4px 20px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-family: calibri,Arial, "MS Trebuchet", sans-serif;
+    font-weight: normal;
+}
+#menu ul li a:hover {
+    text-decoration: underline;
+}
+#atuacao{
+  font-size: 12px;
+  margin-bottom:20px;
+  margin-left:20px;
+  width:890px;
+  height:auto;
+  padding-left:20px;
+  background-color: #f9f9f9;
+  border-top-left-radius: 18px 18px;
+  border-top-right-radius: 18px 18px;
+  border-bottom-left-radius: 18px 18px;
+  border-bottom-right-radius: 18px 18px;
+  border: 1px solid #dfdfdf;
+}
+
+#profissionais{
+  padding-top:15px;
+
+  margin-bottom:20px;
+  margin-left:20px;
+  width:890px;
+  height:auto;
+  padding-left:20px;
+  background-color: #f9f9f9;
+  border-top-left-radius: 18px 18px;
+  border-top-right-radius: 18px 18px;
+  border-bottom-left-radius: 18px 18px;
+  border-bottom-right-radius: 18px 18px;
+  border: 1px solid #dfdfdf;
+  line-height:25px;
+  float:left;
+}
+
+.img{
+  padding-left:15px;
+  padding-right:15px;
+  float:left;
+}
+
+#nav li a:hover {
+  color:#fff;
+}
+
+#nav li.item1 a {
+  width:120px;
+  height:20px;
+}
+
+#nav li.item1 a:hover {
+  text-decoration:underline;
+}
+
+
+
+#nav li.item2 a {
+  width:130px;
+  height:20px;
+}
+
+#nav li.item2 a:hover {
+  text-decoration:underline;
+}
+
+#nav li.item3 a {
+  width:170px;
+  height:20px;
+}
+
+#nav li.item3 a:hover {
+  text-decoration:underline;
+
+}
+
+#nav li.item4 a {
+  width:180px;
+  height:20px;
+}
+
+#nav li.item4 a:hover {
+  text-decoration:underline;
+}
+
+#nav li.item5 a {
+  width:190px;
+}
+
+#nav li.item5 a:hover {
+  text-decoration:underline;
+}
+
+#nav li.item6 a {
+  width:140px;
+}
+
+#nav li.item6 a:hover {
+  text-decoration:underline;
+}
+
+#banner{
+  float:left;
+  width:959px;
+  height:207px;
+  margin-left:5px;
+}
+
+#content{
+  width:968px;
+  background-color: #f1f1f1;
+  height:auto;
+  float:left;
+}
+
+#col_left{
+  width:301px;
+  float:left;
+  border-right: 1px dotted #c1c1c1;
+}
+
+#col_middle{
+  margin-left:40px;
+  width:301px;
+  float:left;
+  border-right: 1px dotted #c1c1c1;
+}
+
+#col_rigth{
+  margin-left:25px;
+  width:290px;
+  float:left;
+
+}
+
+#tit_col, #tit_cursos_oferecidos, #tit_informtativos{
+  margin-top:10px;
+  margin-bottom:10px;
+  color:#62202d;
+  font-size: 20px;
+}
+
+.ul_atuacao{
+  line-height:25px;
+  padding:1px 10px 10px 10px;
+  text-align:justify;
+  list-style-image: url(../imagens/arrow.png);
+}
+
+.ul_parecer{
+  margin-left:15px;
+  line-height:35px;
+  padding:1px 20px 10px 10px;
+  text-align:justify;
+  list-style-image: url(../imagens/arrow.png);
+}
+
+#img_col, #img_mid{
+  border: 1px solid #c1c1c1;
+  width:258px;
+  height:166px;
+}
+
+
+#desc_img, #desc_img_curso{
+  margin-top:10px;
+  width:258px;
+  height:auto;
+  text-align:left;
+  font-size: 15px;
+  color:#7d7d7d;
+  margin-bottom:10px;
+  font-size: 14px;
+}
+
+
+#conheca, #conheca_cursos{
+  margin-top:40px;
+  margin-bottom:40px;
+  font-size: 13px;
+  width:100px;
+  border-top-left-radius: 18px 18px;
+  border-top-right-radius: 18px 18px;
+  border-bottom-left-radius: 18px 18px;
+  border-bottom-right-radius: 18px 18px;
+  padding:3px;
+  background-color:#dfdfdf;
+  border:#c4c4c4 1px solid;;
+  text-align:center;
+  color:#000;
+}
+
+#conheca a, #conheca_cursos a{
+  font-size: 13px;
+  color:#000;
+  text-decoration:none;
+}
+
+#conheca a:hover, #conheca_cursos a:hover{
+  font-size: 13px;
+  color:#000;
+  text-decoration:underline;
+}
+
+
+#veja_todos{
+  margin-top:-20px;
+  margin-bottom:40px;
+  font-size: 13px;
+  width:100px;
+  border-top-left-radius: 18px 18px;
+  border-top-right-radius: 18px 18px;
+  border-bottom-left-radius: 18px 18px;
+  border-bottom-right-radius: 18px 18px;
+  padding:3px;
+  background-color:#dfdfdf;
+  border:#c4c4c4 1px solid;;
+  text-align:center
+}
+h3 {
+    font-size: 23px;
+    color: #4b0111;
+    margin-left: 18px;
+}
+#veja_todos a{
+  color:#000;
+  font-size: 13px;
+  text-decoration:none;
+}
+
+#veja_todos a:hover{
+  color:#000;
+  font-size: 13px;
+  text-decoration:underline;
+}
+
+#tit_destaque, #tit_destaque_curso {
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #62202d;
+    font-size: 20px;
+    background-image: url(http://opelegis.web7095.uni5.net//storage/website/baI8UKHOsh9ozA9XvVixrDKrdyaZsSPiarodoHNy.jpeg);
+    width: 245px;
+    height: 54px;
+}
+
+#contato {
+  padding: 10px;
+
+  color: white;
+  margin-top: -470px;
+  margin-right: 15px;
+  width: 380px;
+  height: 130px;
+  float: right;
+  right: 250px;
+  top: 300px;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 15px;
+  border-bottom-right-radius: 10px 10px;
+  background-color: rgb(76, 0, 15);
+}
+
+
+#desc_destaque, #desc_destaque_curso{
+  width:258px;
+  height:auto;
+  text-align:justify;
+  font-size: 15px;
+  color:#7d7d7d;
+  margin-bottom:10px;
+}
+
+.data_infor{
+  padding:3px 15px;
+  background-color: #000;
+  color:#fff;
+  font-style:italic;
+  width:50px;
+  font-size: 12px;
+}
+
+.ul_infor{
+  padding:5px;
+  list-style:none;
+  color:#7d7d7d;
+  padding-bottom:10px;
+  font-size: 15px;
+}
+
+
+.list_infor{
+  color:#999;
+  padding:10px;
+}
+
+#infor{
+  height: 345px;
+}
+
+#outros{
+  height:300px;
+}
+
+.ul_outros{
+  list-style-image: url(../imagens/arrow.png);
+  padding:5px;
+  line-height:25px;
+  color:#7d7d7d;
+}
+
+#footer{
+  background-color: #4d0010;
+  width:100%;
+  height:100px;
+  float:left;
+  bottom:0px;
+  text-align:center;
+}
+
+#area_footer{
+  margin:auto;
+  width:934px;
+  height:100px;
+}
+
+#redes{
+  margin-top:20px;
+  margin-left:30px;
+  float:left;
+}
+
+#endereco{
+  margin-top:5px;
+  color:#fff;
+  float:left;
+  margin-left: 250px;
+  font-weight: normal;
+}
+
+#elo{
+  float:right;
+  margin-top:10px;
+
+}
+
+#livros {
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+
+  margin-bottom: 20px;
+  margin-left: 22px;
+  width: 275px;
+  height: 292px;
+  padding-left: 15px;
+  background-color: rgb(249, 249, 249);
+  border-top-left-radius: 18px 18px;
+  border-top-right-radius: 18px 18px;
+  border-bottom-left-radius: 18px 18px;
+  border-bottom-right-radius: 18px 18px;
+  border: 1px solid rgb(223, 223, 223);
+  line-height: 25px;
+}
+
+#cursos {
+  float: left;
+  text-align: left !important;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 22px;
+  width: 275px;
+  height: auto;
+  padding-left: 15px;
+  background-color: rgb(249, 249, 249);
+  border-top-left-radius: 18px 18px;
+  border-top-right-radius: 18px 18px;
+  border-bottom-left-radius: 18px 18px;
+  border-bottom-right-radius: 18px 18px;
+  border: 1px solid rgb(223, 223, 223);
+  line-height: 25px;
+}
+
+#cursos a {
+  text-align: left !important;
+  padding-top: 15px;
+  color:#000;
+  text-decoration:none;
+}
+
+#cursos a:hover {
+  text-align: left !important;
+  padding-top: 15px;
+  color:#000;
+  text-decoration:underline;
+}

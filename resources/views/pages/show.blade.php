@@ -3,8 +3,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-12">
-            <p>
-            <h3><i class="fa fa-flag" aria-hidden="true"></i> <strong>{{$page->title}}</strong></h3></p>
+            <h3><i class="fa fa-flag" aria-hidden="true"></i> <strong>{{$page->title}}</strong></h3>
         </div>
     </div>
     <div class="row">

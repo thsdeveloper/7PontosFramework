@@ -32,6 +32,8 @@ Route::get('/cart/details','CartController@details')->name('cart.details');
 Route::post('/cart/{id}','CartController@delete')->name('cart.delete');
 Route::post('/cart/checkout','CartController@checkout');
 
+Route::get('/books','BookController@books');
+
 Auth::routes();
 
 Route::group(['prefix' => 'admin'], function () {
