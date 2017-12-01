@@ -3,31 +3,30 @@
 namespace App\Http\Controllers;
 
 use App\Banner;
-use App\Categorie;
-use App\Product;
+use App\Post;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    /**
-    * Create a new controller instance.
-    *
-    * @return void
-    */
-    public function __construct()
-    {
-    }
+  /**
+  * Create a new controller instance.
+  *
+  * @return void
+  */
+  public function __construct()
+  {
+  }
 
-    /**
-    * Show the application dashboard.
-    *
-    * @return \Illuminate\Http\Response
-    */
-    public function index()
-    {
-        $products = Product::with('category', 'brand')->get();
-        $banner = Banner::where('status', 1)->where('position', '1')->get();
+  /**
+  * Show the application dashboard.
+  *
+  * @return \Illuminate\Http\Response
+  */
+  public function index()
+  {
+    $postDestaque = Post::where('featured', '1')->first();
+    $pareceres = Post::where('category_id', '19')->where('featured', '1')->get();
 
-        return view('home', compact('products', 'banner'));
-    }
+    return view('home', compact('postDestaque', 'pareceres'));
+  }
 }

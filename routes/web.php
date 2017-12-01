@@ -35,6 +35,11 @@ Route::post('/cart/checkout','CartController@checkout');
 Route::get('/books','BookController@books');
 Route::get('/cursos','CourseController@courses');
 Route::get('/cursos/{slug}', 'CourseController@show');
+Route::get('/posts','PostController@posts');
+Route::get('/post/{slug}', 'PostController@show');
+Route::get('/pareceres','PostController@pareceres');
+Route::get('/parecer/{slug}', 'PostController@parecer');
+
 
 Auth::routes();
 
