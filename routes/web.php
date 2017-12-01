@@ -42,6 +42,8 @@ Route::get('/parecer/{slug}', 'PostController@parecer');
 Route::get('/profissionais','UserController@profissionais');
 Route::get('/profissional/{id}', 'UserController@profissional');
 
+Route::get('/fale-conosco', 'ContactController@show');
+
 
 Auth::routes();
 
