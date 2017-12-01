@@ -39,6 +39,8 @@ Route::get('/posts','PostController@posts');
 Route::get('/post/{slug}', 'PostController@show');
 Route::get('/pareceres','PostController@pareceres');
 Route::get('/parecer/{slug}', 'PostController@parecer');
+Route::get('/profissionais','UserController@profissionais');
+Route::get('/profissional/{id}', 'UserController@profissional');
 
 
 Auth::routes();

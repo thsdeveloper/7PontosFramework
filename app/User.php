@@ -26,4 +26,14 @@ class User extends \TCG\Voyager\Models\User
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public static function getAll(){
+        return static::where('role_id', '3')->get();
+    }
+
+    //Encontrar curso por Slug
+    public static function findById($id){
+        return static::where('id', $id)->first();
+    }
+
 }
