@@ -16,9 +16,6 @@
   <link href="{{ asset('css/screen.css') }}" rel="stylesheet">
 
 
-  <script type="text/javascript" src="js/accordian.pack.js"></script>
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/easySlider1.7.js"></script>
 
 </head>
 <body>
@@ -32,7 +29,7 @@
         </a>
       </div>
       <div id="menu">
-            {{ menu('menu_principal')}}
+        {{ menu('menu_principal')}}
       </div>
 
 
@@ -56,5 +53,6 @@
   </div>
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>

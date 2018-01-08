@@ -27,6 +27,9 @@ class HomeController extends Controller
     $postDestaque = Post::where('featured', '1')->first();
     $pareceres = Post::where('category_id', '19')->where('featured', '1')->get();
 
-    return view('home', compact('postDestaque', 'pareceres'));
+    $banners = Banner::where('status', '1')->get();
+
+
+    return view('home', compact('postDestaque', 'pareceres', 'banners'));
   }
 }
