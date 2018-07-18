@@ -47,11 +47,11 @@
 
     <div id="tit_destaque">Destaques</div>
     <div id="img_destaque">
-      <img src="{{url('storage/'.$postDestaque->image)}}" width="268"/>
+      <a href="{{url('post/'.$postDestaque->slug)}}" title=""><img src="{{url('storage/'.$postDestaque->image)}}" width="268"/></a>
     </div>
     <div id="desc_destaque">
       <span class="link">
-        <a href="{{url('post/'.$postDestaque->slug)}}" title="">Dra. Lirian Cavalhero conduz a reunião dos jurídicos da FEBRAC/FENAVIST para tratar dos reflexos da Reforma Trabalhista nas negociações coletivas.  </a></span>		</div>
+        <a href="{{url('post/'.$postDestaque->slug)}}" title="">{{$postDestaque->excerpt}}</a></span>		</div>
         <div id="conheca"><a href="{{url('/posts')}}" title="">Veja todos</a></div>
       </div>
 

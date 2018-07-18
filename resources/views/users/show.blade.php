@@ -6,8 +6,8 @@
     <div id="profissionais">
         <img src="{{url('storage/'.$user->avatar)}}" width="120" height="152" class="img"><strong>{{$user->name}} </strong> - {{$user->intro_curriculo}}
         <a href="{{url('/profissional/'.$user->id)}}" class="voltar"><strong><br>
-        Veja o curriculo </strong></a></div>
+        Veja o curriculos </strong></a></div>
   @empty
-    <p>Sem livros cadastrado!</p>
+    <p>Sem curriculos cadastrado!</p>
   @endforelse
 @endsection

@@ -25,7 +25,7 @@ class HomeController extends Controller
   public function index()
   {
     $postDestaque = Post::where('featured', '1')->first();
-    $pareceres = Post::where('category_id', '19')->where('featured', '1')->get();
+    $pareceres = Post::where('category_id', '19')->limit('3')->orderBy('created_at')->get();
 
     $banners = Banner::where('status', '1')->get();
 
